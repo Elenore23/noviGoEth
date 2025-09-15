@@ -45,7 +45,7 @@ jobs:
         go-version: 1.21.x
 
     - name: Install rust
-      uses: actions-rust-lang/setup-rust-toolchain@9d7e65c320fdb52dcd45ffaa68deb6c02c8754d9 # v1.12.0
+      uses: actions-rust-lang/setup-rust-toolchain@2fcdc490d667999e01ddbbf0f2823181beef6b39 # v1.15.0
       with:
         toolchain: nightly-2023-12-03
         override: true
